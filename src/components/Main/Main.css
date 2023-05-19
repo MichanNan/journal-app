@@ -1,0 +1,146 @@
+@import url("../colors//colors.css");
+
+main {
+  text-align: center;
+  background-color: var(--color-foam);
+  margin-top: 8rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin: 3rem auto;
+}
+
+form legend {
+  font-size: 1.8rem;
+}
+
+form label {
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.new-entry__motto {
+  height: 5rem;
+  border: solid var(--color-water-10) 1px;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.new-entry__motto:focus {
+  border: solid var(--color-nemo-dark) 1px;
+}
+
+.new-entry__notes {
+  height: 10rem;
+  border: solid var(--color-water-10) 1px;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.new-entry__notes:focus {
+  border: solid var(--color-nemo-dark) 1px;
+}
+
+.new-entry__submit {
+  width: 15rem;
+  height: 5rem;
+  margin: 3rem auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: var(--color-nemo);
+  color: var(--color-foam);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.new-entry__submit:hover {
+  background-color: var(--color-nemo-dark);
+}
+
+.tab {
+  width: 55%;
+  margin: 0 auto;
+}
+.tab-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  text-align: center;
+  gap: 4rem;
+  font-size: 1.5rem;
+}
+
+.tab__tab-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.tab__tab-item__all-num,
+.tab__tab-item__fav-num {
+  width: 3rem;
+  height: 2rem;
+  background-color: var(--color-water-10);
+  border-radius: 2rem;
+}
+
+.item-active {
+  color: var(--color-nemo-mid);
+}
+.num-active {
+  background-color: var(--color-nemo-mid);
+  color: var(--color-foam);
+}
+
+.tab-content {
+  margin: 5rem auto;
+}
+
+.tab-content__item {
+  margin: 3rem auto;
+  padding-bottom: 3rem;
+  border-bottom: solid var(--color-water-10) 1px;
+}
+
+.tab-content__item:last-child {
+  border-bottom: none;
+}
+
+.tab-content__item__time {
+  font-size: 1.5rem;
+}
+
+.tab-content__item__motto {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin: 2rem auto;
+}
+
+.tab-content__item__motto__icon {
+  background-image: url(../../asset/star.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 2rem;
+}
+
+.filled {
+  background-image: url(../../asset/star-filled.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 2rem;
+}
+
+.tab-content__item__motto__icon:hover {
+  background-image: url(../../asset/star-filled.svg);
+}
+
+.hidden {
+  display: none;
+}

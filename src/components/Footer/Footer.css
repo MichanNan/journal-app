@@ -1,0 +1,19 @@
+@import url("../colors//colors.css");
+.footer {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 5rem;
+  width: 60%;
+  background-color: var(--color-granite);
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: var(--color-foam);
+  line-height: 5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
