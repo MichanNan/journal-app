@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/journal-app/static/css/main.ed3c7b0d.css",
+    "main.js": "/journal-app/static/js/main.66000d55.js",
+    "static/js/787.7eac1b81.chunk.js": "/journal-app/static/js/787.7eac1b81.chunk.js",
+    "index.html": "/journal-app/index.html",
+    "static/media/star-filled.svg": "/journal-app/static/media/star-filled.7cc45b86166388d0d3350a0d8e480aed.svg",
+    "static/media/star.svg": "/journal-app/static/media/star.1321e81c30205739e09a.svg",
+    "main.ed3c7b0d.css.map": "/journal-app/static/css/main.ed3c7b0d.css.map",
+    "main.66000d55.js.map": "/journal-app/static/js/main.66000d55.js.map",
+    "787.7eac1b81.chunk.js.map": "/journal-app/static/js/787.7eac1b81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed3c7b0d.css",
+    "static/js/main.66000d55.js"
+  ]
+}
