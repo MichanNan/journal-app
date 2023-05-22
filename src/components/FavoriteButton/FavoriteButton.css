@@ -1,0 +1,17 @@
+.tab-content__item__motto__icon {
+  background-image: url(../../asset/star.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 2rem;
+}
+
+.filled {
+  background-image: url(../../asset/star-filled.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 2rem;
+}
+
+.tab-content__item__motto__icon:hover {
+  background-image: url(../../asset/star-filled.svg);
+}

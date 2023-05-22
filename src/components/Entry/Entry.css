@@ -1,0 +1,22 @@
+.tab-content__item {
+  width: 55%;
+  margin: 3rem auto;
+  padding-bottom: 3rem;
+  border-bottom: solid var(--color-water-10) 1px;
+}
+
+.tab-content__item:last-child {
+  border-bottom: none;
+}
+
+.tab-content__item__time {
+  font-size: 1.5rem;
+}
+
+.tab-content__item__motto {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin: 2rem auto;
+}
