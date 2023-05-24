@@ -21,6 +21,7 @@ form label {
   border: solid var(--color-water-10) 1px;
   border-radius: 0.5rem;
   outline: none;
+  font-size: 1.5rem;
 }
 
 .new-entry__motto:focus {
@@ -32,6 +33,7 @@ form label {
   border: solid var(--color-water-10) 1px;
   border-radius: 0.5rem;
   outline: none;
+  font-size: 1.5rem;
 }
 
 .new-entry__notes:focus {

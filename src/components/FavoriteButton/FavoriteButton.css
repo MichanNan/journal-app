@@ -11,7 +11,3 @@
   background-size: 100%;
   width: 2rem;
 }
-
-.tab-content__item__motto__icon:hover {
-  background-image: url(../../asset/star-filled.svg);
-}

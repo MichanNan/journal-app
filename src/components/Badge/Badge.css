@@ -12,6 +12,13 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.tab__tab-item:hover {
+  background-color: var(--color-water-10);
+  cursor: pointer;
 }
 
 .tab__tab-item__all-num,
