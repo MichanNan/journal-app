@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/journal-app/static/css/main.6a14a4e7.css",
-    "main.js": "/journal-app/static/js/main.eb877409.js",
+    "main.css": "/journal-app/static/css/main.459170f7.css",
+    "main.js": "/journal-app/static/js/main.ac06b9a3.js",
     "static/js/787.7eac1b81.chunk.js": "/journal-app/static/js/787.7eac1b81.chunk.js",
     "index.html": "/journal-app/index.html",
     "static/media/star-filled.svg": "/journal-app/static/media/star-filled.7cc45b86166388d0d335.svg",
     "static/media/star.svg": "/journal-app/static/media/star.1321e81c30205739e09a.svg",
-    "main.6a14a4e7.css.map": "/journal-app/static/css/main.6a14a4e7.css.map",
-    "main.eb877409.js.map": "/journal-app/static/js/main.eb877409.js.map",
+    "main.459170f7.css.map": "/journal-app/static/css/main.459170f7.css.map",
+    "main.ac06b9a3.js.map": "/journal-app/static/js/main.ac06b9a3.js.map",
     "787.7eac1b81.chunk.js.map": "/journal-app/static/js/787.7eac1b81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a14a4e7.css",
-    "static/js/main.eb877409.js"
+    "static/css/main.459170f7.css",
+    "static/js/main.ac06b9a3.js"
   ]
 }
