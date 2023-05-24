@@ -1,4 +1,5 @@
 import { useState } from "react";
+import useLocalStorageState from "use-local-storage-state";
 import Header from "./components/Header/index.js";
 import Main from "./components/Main/index.js";
 import Form from "./components/Form/index.js";
@@ -41,7 +42,9 @@ function App() {
     },
   ];
 
-  const [entries, setEntries] = useState(initialEntries);
+  const [entries, setEntries] = useLocalStorageState("entries", {
+    defaultValue: initialEntries,
+  });
 
   const favoriteEntries = entries.filter((entry) => entry.isFavorite === true);
 
