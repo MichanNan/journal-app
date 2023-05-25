@@ -11,6 +11,7 @@ export default function EnteriesSection({
   filter,
   allEntriesCount,
   favoriteEntriesCount,
+  toggleClick,
 }) {
   return (
     <Fragment>
@@ -35,6 +36,7 @@ export default function EnteriesSection({
               isFavorite={entry.isFavorite}
               id={entry.id}
               onToggleFavorite={onToggleFavorite}
+              toggleClick={toggleClick}
             ></Entry>
           ))}
         </ul>

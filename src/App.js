@@ -42,6 +42,12 @@ function App() {
     },
   ];
 
+  const date = new Date().toLocaleString("en-us", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+
   const [entries, setEntries] = useLocalStorageState("entries", {
     defaultValue: initialEntries,
   });
@@ -49,8 +55,9 @@ function App() {
   const favoriteEntries = entries.filter((entry) => entry.isFavorite === true);
 
   const [filter, setFilter] = useState("all");
+
   function handleAddEntry(newEntry) {
-    setEntries([{ id: uid(), ...newEntry }, ...entries]);
+    setEntries([{ id: uid(), date: date, ...newEntry }, ...entries]);
   }
   function handleToggleFavorite(id) {
     setEntries(
@@ -65,6 +72,10 @@ function App() {
   function handleShowAllEntries() {
     setFilter("all");
   }
+
+  function handleToggleClick(id) {
+    setEntries(entries.filter((entry) => entry.id !== id));
+  }
   return (
     <>
       <Header></Header>
@@ -78,6 +89,7 @@ function App() {
           onShowFavoriteEntries={handleShowFavoriteEntries}
           allEntriesCount={entries.length}
           favoriteEntriesCount={favoriteEntries.length}
+          toggleClick={handleToggleClick}
         ></EnteriesSection>
       </Main>
       <Footer></Footer>

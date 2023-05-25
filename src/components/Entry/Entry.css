@@ -1,3 +1,4 @@
+@import url("../colors/colors.css");
 .tab-content__item {
   width: 55%;
   margin: 6rem auto;
@@ -7,6 +8,26 @@
 
 .tab-content__item:last-child {
   border-bottom: none;
+}
+
+.tab-content__item__delete {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.6rem;
+  transform: translateY(-2rem);
+  color: var(--color-granite);
+  background-color: var(--color-foam);
+  border-radius: 50%;
+  border: none;
+  float: left;
+}
+
+.tab-content__item__delete:hover {
+  background-color: var(--color-nemo-dark);
+  color: var(--color-foam);
 }
 
 .tab-content__item__time {
