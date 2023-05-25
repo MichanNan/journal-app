@@ -73,7 +73,7 @@ function App() {
     setFilter("all");
   }
 
-  function handleToggleClick(id) {
+  function handleDelete(id) {
     setEntries(entries.filter((entry) => entry.id !== id));
   }
   return (
@@ -89,7 +89,7 @@ function App() {
           onShowFavoriteEntries={handleShowFavoriteEntries}
           allEntriesCount={entries.length}
           favoriteEntriesCount={favoriteEntries.length}
-          toggleClick={handleToggleClick}
+          toggleClick={handleDelete}
         ></EnteriesSection>
       </Main>
       <Footer></Footer>
